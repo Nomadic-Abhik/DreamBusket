@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{67FB39D1-0C26-436B-B7CC-179E9FDDD866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalogue", "Catalogue", "{C294B85E-CB48-4CCD-98D6-89D5AB878560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamBusket.Catalogue.API", "Services\Catalogue\DreamBusket.Catalogue.API\DreamBusket.Catalogue.API.csproj", "{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C294B85E-CB48-4CCD-98D6-89D5AB878560} = {67FB39D1-0C26-436B-B7CC-179E9FDDD866}
+		{C6B799E0-CCD0-4126-B8DD-1F327ED89A8E} = {C294B85E-CB48-4CCD-98D6-89D5AB878560}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D0444F6-A357-40B4-969C-0B5144F3C884}
